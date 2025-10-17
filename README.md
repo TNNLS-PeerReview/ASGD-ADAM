@@ -30,25 +30,7 @@ If using GPU acceleration:
 
 pip install torch --index-url https://download.pytorch.org/whl/cu121
 
-🧩 Parameter Settings
 
-Parameter	Description	Default
-
-lr	Base learning rate	1e-3
-
-beta1, beta2	Momentum coefficients	0.9, 0.999
-
-eps	Stability constant	1e-8
-
-switch_interval	Learning rate switching frequency (ASGD)	10
-
-alpha_min, alpha_max	Min/max adaptive rates	1e-4, 1e-2
-
-batch_size	Mini-batch size	128
-
-epochs	Number of training epochs	50
-
-optimizer	Optimizer choice (Adam, AMSGrad, ASGDAdam)	ASGDAdam
 
 🧠 Reproduction Steps
 
@@ -82,17 +64,15 @@ ASGDAMSgrad(proposed)
 
 Padam
 
+SGD with momentum
+
 📊 Outputs
 
 File	Description
 
-results/metrics.csv	Summary of accuracy, precision, F1, R²
+results/metrics.csv	Summary of accuracy, precision, F1, R², rmse, mse, mae
 
-results/loss_curves.png	Training/validation loss curves
 
-results/landscape.png	Nonconvex loss landscape visualization
-
-results/final_model.pt	Trained model weights
 
 🧪 Key Features
 
