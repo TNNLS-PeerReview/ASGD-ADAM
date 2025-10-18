@@ -3,6 +3,7 @@ Adaptive-SGD
 🧬 MultiModal Nonconvex Optimizer (RNA–ATAC–CITE)
 
 Digital Twin for Cellular Reprogramming
+
 This project implements a multi-modal optimization framework that integrates RNA, ATAC, and CITE-seq modalities using a nonconvex Adaptive Stochastic Gradient Descent (ASGD) optimizer.
 It supports single-cell perturbation, cell state reprogramming, and the creation of a digital twin of wet-lab differentiation experiments.
 
